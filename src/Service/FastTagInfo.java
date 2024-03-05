@@ -1,13 +1,13 @@
 package Service;
 
 public class FastTagInfo {
-        private String fastTadId  = "1234";
-        private int vehicleType = 8 ;
+        private String fastTagId  = "1234";
+        private int vehicleType = 4 ;
         private String vehicleNumber = "143" ;
         private double walletBalance =1000;
 
         public void setFastTadId(String fastTadId) {
-            this.fastTadId = fastTadId;
+            this.fastTagId = fastTagId;
         }
 
         public void setVehicleType(int vehicleType) {
@@ -27,8 +27,8 @@ public class FastTagInfo {
 //        this.walletBalance = walletBalance;
 //    }
 
-        public String getFastTadId() {
-            return fastTadId;
+        public String getFastTagId() {
+            return fastTagId;
         }
 
         public int getVehicleType() {

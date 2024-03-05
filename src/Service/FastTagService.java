@@ -10,7 +10,7 @@ public abstract class FastTagService implements FastTagRecharge,FastTagTollCalcu
     @Override
     public String recharge(String fastTagID , double amount) {
         System.out.println("Wallet Balance  :"+fastTagInfo.getWalletBalance());
-        if (fastTagID.equals(fastTagInfo.getFastTadId())) {
+        if (fastTagID.equals(fastTagInfo.getFastTagId())) {
             fastTagInfo.setWalletBalance(fastTagInfo.getWalletBalance() + amount);
             System.out.println("Your Recharge was successfull - Current Wallet Balance  :" + fastTagInfo.getWalletBalance());
 
@@ -26,7 +26,6 @@ public abstract class FastTagService implements FastTagRecharge,FastTagTollCalcu
     public double payment() {
         if (fastTagInfo.getWalletBalance()>=tollCharges){
             fastTagInfo.setWalletBalance(fastTagInfo.getWalletBalance()-tollCharges);
-            ;
             System.out.println("Toll charges  :"+tollCharges+"   & "+"Wallet balance :  "+fastTagInfo.getWalletBalance());
 
         }else {
