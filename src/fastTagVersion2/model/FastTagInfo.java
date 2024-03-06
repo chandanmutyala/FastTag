@@ -4,7 +4,7 @@ public class FastTagInfo {
         private String fastTadId  = "1234";
         private int vehicleType = 8 ;
         private String vehicleNumber = "143" ;
-        private double walletBalance =1000;
+        private double walletBalance =100;
 
         public void setFastTadId(String fastTadId) {
             this.fastTadId = fastTadId;
