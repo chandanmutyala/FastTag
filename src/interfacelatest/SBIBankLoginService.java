@@ -12,8 +12,6 @@ public class SBIBankLoginService implements BankOTPValidationService{
     public SBIBankLoginService(){
 
     }
-
-
     @Override
     public boolean login(String userName, String passWord) {
         if(userName.equals(accountNumber)&&this.passWord.equals(passWord)){

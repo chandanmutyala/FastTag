@@ -1,7 +1,7 @@
 package interfacelatest;
 
 public class InvalidRunTimeException extends RuntimeException{
-    private String code;
+    private final String code;
 
     public InvalidRunTimeException(String errorCode,String message){
         super(message);
@@ -9,6 +9,7 @@ public class InvalidRunTimeException extends RuntimeException{
     }
     public String getCode() {
         return code;
+
     }
 
 }
