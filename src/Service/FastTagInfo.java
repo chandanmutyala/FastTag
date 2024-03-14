@@ -7,6 +7,7 @@ public class FastTagInfo {
         private double walletBalance =1000;
 
         public void setFastTadId(String fastTadId) {
+
             this.fastTagId = fastTagId;
         }
 
@@ -15,6 +16,7 @@ public class FastTagInfo {
         }
 
         public void setVehicleNumber(String vehicleNumber) {
+
             this.vehicleNumber = vehicleNumber;
         }
 
@@ -28,22 +30,27 @@ public class FastTagInfo {
 //    }
 
         public String getFastTagId() {
+
             return fastTagId;
         }
 
         public int getVehicleType() {
+
             return vehicleType;
         }
 
         public String getVehicleNumber() {
+
             return vehicleNumber;
         }
 
         public double getWalletBalance() {
+
             return walletBalance;
         }
 
         public void setWalletBalance(double walletBalance) {
+
             this.walletBalance = walletBalance;
         }
     }

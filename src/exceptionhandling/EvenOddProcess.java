@@ -15,7 +15,7 @@ public class EvenOddProcess {
 
     public String oddNumber(){
         try {
-            evenOddException.getodd(10);
+            evenOddException.getodd(9);
         } catch (CustomException e) {
             System.out.println(e.getCode()+" "+e.getMessage());
 

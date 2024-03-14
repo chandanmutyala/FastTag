@@ -1,5 +1,5 @@
 package Service;
 
 public interface FastTagPayment {
-    double payment();
+    double payment() throws InsufficentWalletBalance;
 }
